@@ -80,7 +80,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wxaee6c53ac42fedf7",
+        "appid" : "<yourwxid>",
         "setting" : {
             "urlCheck" : false,
             "minified" : true,
