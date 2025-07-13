@@ -180,6 +180,7 @@
 
 ### 客户端启动
 
+0. 请在 Milk-Tea-Order-System/milktea-uniapp/manifest.json 配置自己的 appid
 1. 使用HBuilderX打开milktea-uniapp目录
 2. 在编辑器中安装依赖(HBuilderX → 菜单 → 运行 → 运行到终端，执行npm install)
 3. 点击工具栏的"运行"按钮，选择需要运行的平台:
