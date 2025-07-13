@@ -1,0 +1,497 @@
+
+.search-container.data-v-6a63d33a {
+		min-height: 100vh;
+		background-color: #121212;
+		display: flex;
+		flex-direction: column;
+}
+	
+	/* 顶部标题栏 */
+.navbar.data-v-6a63d33a {
+		padding-top: var(--status-bar-height);
+		height: calc(44px + var(--status-bar-height));
+		background-color: #1a1a1a;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		z-index: 100;
+}
+.page-title.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+		font-weight: bold;
+}
+	
+	/* 搜索栏 */
+.search-header.data-v-6a63d33a {
+		display: flex;
+		align-items: center;
+		padding: 20rpx 30rpx;
+		background-color: #1a1a1a;
+}
+.search-box.data-v-6a63d33a {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		background-color: #262626;
+		border-radius: 40rpx;
+		padding: 10rpx 20rpx;
+		position: relative;
+}
+.search-icon.data-v-6a63d33a {
+		width: 28rpx;
+		height: 28rpx;
+		margin: 0 10rpx;
+}
+.search-input.data-v-6a63d33a {
+		flex: 1;
+		height: 60rpx;
+		color: #ffffff;
+		font-size: 28rpx;
+}
+.clear-icon.data-v-6a63d33a {
+		width: 40rpx;
+		height: 40rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.close-icon-small.data-v-6a63d33a {
+		width: 24rpx;
+		height: 24rpx;
+}
+.cancel-btn.data-v-6a63d33a {
+		padding: 0 20rpx;
+		color: #7b68ee;
+		font-size: 28rpx;
+}
+	
+	/* 搜索历史 */
+.search-history.data-v-6a63d33a {
+		padding: 30rpx;
+}
+.section-header.data-v-6a63d33a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20rpx;
+}
+.section-title.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+		font-weight: bold;
+}
+.clear-btn.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #888888;
+}
+.history-tags.data-v-6a63d33a {
+		display: flex;
+		flex-wrap: wrap;
+}
+.history-tag.data-v-6a63d33a {
+		padding: 10rpx 30rpx;
+		background-color: #262626;
+		border-radius: 30rpx;
+		margin-right: 20rpx;
+		margin-bottom: 20rpx;
+}
+.history-tag text.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #dddddd;
+}
+	
+	/* 搜索中 */
+.loading-box.data-v-6a63d33a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 200rpx;
+}
+.loading-spinner.data-v-6a63d33a {
+		width: 60rpx;
+		height: 60rpx;
+		border: 4rpx solid #7b68ee;
+		border-top-color: transparent;
+		border-radius: 50%;
+		animation: spin-6a63d33a 0.8s linear infinite;
+		margin-bottom: 20rpx;
+}
+@keyframes spin-6a63d33a {
+0% { transform: rotate(0deg);
+}
+100% { transform: rotate(360deg);
+}
+}
+.loading-text.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #888888;
+}
+	
+	/* 搜索结果 */
+.search-results.data-v-6a63d33a {
+		height: calc(100vh - 110rpx);
+		padding: 20rpx;
+		box-sizing: border-box;
+}
+.product-item.data-v-6a63d33a {
+		display: flex;
+		padding: 30rpx;
+		background-color: #1a1a1a;
+		border-radius: 16rpx;
+		margin-bottom: 20rpx;
+}
+.product-image.data-v-6a63d33a {
+		width: 160rpx;
+		height: 160rpx;
+		border-radius: 10rpx;
+		margin-right: 20rpx;
+		background-color: #262626;
+}
+.product-info.data-v-6a63d33a {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+}
+.product-name.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+		margin-bottom: 10rpx;
+		font-weight: bold;
+}
+.product-description.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #888888;
+		margin-bottom: 10rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+}
+.product-bottom.data-v-6a63d33a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+.product-price.data-v-6a63d33a {
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #7b68ee;
+}
+.add-to-cart-btn.data-v-6a63d33a {
+		width: 50rpx;
+		height: 50rpx;
+		background-color: #7b68ee;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.add-icon.data-v-6a63d33a {
+		width: 30rpx;
+		height: 30rpx;
+}
+	
+	/* 加载状态 */
+.load-more.data-v-6a63d33a, .loading-more.data-v-6a63d33a {
+		text-align: center;
+		padding: 20rpx 0;
+}
+.load-more text.data-v-6a63d33a, .loading-more text.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #888888;
+		vertical-align: middle;
+}
+.loading-more .loading-spinner.data-v-6a63d33a {
+		width: 30rpx;
+		height: 30rpx;
+		margin-right: 10rpx;
+		margin-bottom: 0;
+		display: inline-block;
+		vertical-align: middle;
+}
+	
+	/* 搜索无结果 */
+.no-results.data-v-6a63d33a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 50vh;
+}
+.empty-icon.data-v-6a63d33a {
+		width: 120rpx;
+		height: 120rpx;
+		margin-bottom: 20rpx;
+		opacity: 0.5;
+}
+.no-results-text.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #888888;
+}
+	
+	/* 商品详情弹窗 */
+.product-detail-popup.data-v-6a63d33a {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1000;
+		/* 提前创建层叠上下文 */
+		transform: translateZ(0);
+		pointer-events: auto;
+}
+.popup-mask.data-v-6a63d33a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		will-change: opacity;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+}
+.popup-content.data-v-6a63d33a {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #1a1a1a;
+		border-radius: 30rpx 30rpx 0 0;
+		overflow: hidden;
+		box-sizing: border-box;
+		/* 使用transform提高性能 */
+		transform: translateY(100%);
+		will-change: transform;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		/* 设置最大高度 */
+		max-height: 85vh;
+		overflow-y: auto;
+}
+	
+	/* 新增：内容容器 */
+.popup-inner.data-v-6a63d33a {
+		width: 100%;
+		will-change: opacity;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+}
+.close-btn.data-v-6a63d33a {
+		position: absolute;
+		top: 20rpx;
+		right: 20rpx;
+		width: 60rpx;
+		height: 60rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 10;
+}
+.close-icon.data-v-6a63d33a {
+		width: 30rpx;
+		height: 30rpx;
+}
+	
+	/* 商品详情头部 */
+.detail-header.data-v-6a63d33a {
+		position: relative;
+}
+.detail-image.data-v-6a63d33a {
+		width: 100%;
+		height: 400rpx;
+		background-color: #262626;
+}
+.detail-basic-info.data-v-6a63d33a {
+		padding: 30rpx;
+}
+.name-price-row.data-v-6a63d33a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10rpx;
+}
+.detail-name.data-v-6a63d33a {
+		font-size: 32rpx;
+		font-weight: bold;
+		color: #ffffff;
+		flex: 1;
+		margin-right: 20rpx;
+}
+.detail-price.data-v-6a63d33a {
+		font-size: 36rpx;
+		font-weight: bold;
+		color: #7b68ee;
+}
+.detail-sales.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #888888;
+}
+	
+	/* 规格选择区域 */
+.specifications.data-v-6a63d33a {
+		padding: 0 30rpx;
+}
+.spec-section.data-v-6a63d33a {
+		margin-bottom: 30rpx;
+}
+.spec-title-row.data-v-6a63d33a {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20rpx;
+}
+.spec-icon.data-v-6a63d33a {
+		width: 24rpx;
+		height: 24rpx;
+		margin-right: 10rpx;
+}
+.spec-title.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+		font-weight: bold;
+}
+.spec-options.data-v-6a63d33a {
+		display: flex;
+		flex-wrap: wrap;
+}
+.spec-option.data-v-6a63d33a {
+		min-width: 120rpx;
+		height: 60rpx;
+		background-color: #262626;
+		border-radius: 30rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 20rpx;
+		margin-bottom: 20rpx;
+		padding: 0 20rpx;
+}
+.spec-option text.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #ffffff;
+}
+.spec-option.selected.data-v-6a63d33a {
+		background-color: rgba(123, 104, 238, 0.2);
+		border: 1rpx solid #7b68ee;
+}
+.spec-option.selected text.data-v-6a63d33a {
+		color: #7b68ee;
+}
+	
+	/* 配料选择 */
+.ingredient-options.data-v-6a63d33a {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		width: 100%;
+}
+.ingredient-item.data-v-6a63d33a {
+		width: 30%;
+		min-width: 120rpx;
+		height: auto;
+		background-color: #262626;
+		border-radius: 10rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-right: 10rpx;
+		margin-bottom: 15rpx;
+		padding: 12rpx 10rpx;
+		box-sizing: border-box;
+		border: 1rpx solid transparent;
+}
+.ingredient-item.data-v-6a63d33a:nth-child(3n) {
+		margin-right: 0;
+}
+.ingredient-item.selected.data-v-6a63d33a {
+		background-color: rgba(123, 104, 238, 0.2);
+		border: 1rpx solid #7b68ee;
+}
+.ingredient-name.data-v-6a63d33a {
+		font-size: 24rpx;
+		color: #ffffff;
+		margin-bottom: 4rpx;
+		text-align: center;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 100%;
+}
+.ingredient-price.data-v-6a63d33a {
+		font-size: 22rpx;
+		color: #7b68ee;
+		text-align: center;
+}
+	
+	/* 数量调整 */
+.quantity-section.data-v-6a63d33a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30rpx;
+		border-bottom: 1rpx solid #262626;
+}
+.quantity-label.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+}
+.quantity-control.data-v-6a63d33a {
+		display: flex;
+		align-items: center;
+}
+.quantity-btn.data-v-6a63d33a {
+		width: 60rpx;
+		height: 60rpx;
+		background-color: #262626;
+		border-radius: 30rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 30rpx;
+		color: #ffffff;
+}
+.quantity-input.data-v-6a63d33a {
+		width: 80rpx;
+		text-align: center;
+		margin: 0 20rpx;
+		background-color: transparent;
+		color: #ffffff;
+		font-size: 28rpx;
+}
+	
+	/* 底部操作区 */
+.detail-footer.data-v-6a63d33a {
+		display: flex;
+		padding: 30rpx;
+		align-items: center;
+}
+.total-price.data-v-6a63d33a {
+		flex: 1;
+		font-size: 28rpx;
+		color: #ffffff;
+}
+.price-value.data-v-6a63d33a {
+		font-size: 32rpx;
+		font-weight: bold;
+		color: #7b68ee;
+}
+.add-to-cart.data-v-6a63d33a {
+		min-width: 240rpx;
+		height: 80rpx;
+		background-color: #7b68ee;
+		border-radius: 40rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.add-to-cart text.data-v-6a63d33a {
+		font-size: 28rpx;
+		color: #ffffff;
+}

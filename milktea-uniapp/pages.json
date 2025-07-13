@@ -1,0 +1,189 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "奶茶点单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "点单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/user/avatar-view",
+			"style": {
+				"navigationBarTitleText": "头像查看",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/menu/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/settings",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/user/change-password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/user/change-phone",
+			"style": {
+				"navigationBarTitleText": "更换手机号",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/user/user-info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		},
+		{
+			"path": "pages/user/member-center",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/refund",
+			"style": {
+				"navigationBarTitleText": "申请退款",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a1a1a"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "奶茶点单",
+		"navigationBarBackgroundColor": "#1a1a1a",
+		"backgroundColor": "#121212"
+	},
+	"tabBar": {
+		"color": "#888888",
+		"selectedColor": "#7b68ee",
+		"backgroundColor": "#1a1a1a",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"text": "点单",
+				"iconPath": "static/tabbar/menu.png",
+				"selectedIconPath": "static/tabbar/menu-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/tabbar/cart.png",
+				"selectedIconPath": "static/tabbar/cart-active.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

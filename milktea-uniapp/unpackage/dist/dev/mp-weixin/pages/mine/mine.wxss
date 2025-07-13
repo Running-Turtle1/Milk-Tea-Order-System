@@ -1,0 +1,130 @@
+
+.mine-container {
+		padding: 20rpx;
+		background-color: #121212;
+}
+	
+	/* 用户信息卡片 */
+.user-card {
+		background-color: #1a1a1a;
+		border-radius: 20rpx;
+		padding: 30rpx;
+		margin-bottom: 30rpx;
+		box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+.user-info {
+		display: flex;
+		align-items: center;
+		position: relative;
+}
+.avatar, .default-avatar {
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 60rpx;
+		border: 2rpx solid #7b68ee;
+}
+.user-detail {
+		margin-left: 30rpx;
+		flex: 1;
+}
+.username {
+		font-size: 36rpx;
+		font-weight: bold;
+		margin-bottom: 10rpx;
+		color: #ffffff;
+}
+.member-info {
+		display: flex;
+		align-items: center;
+}
+.member-level {
+		font-size: 24rpx;
+		color: #7b68ee;
+		background-color: rgba(123, 104, 238, 0.1);
+		padding: 4rpx 12rpx;
+		border-radius: 20rpx;
+		margin-right: 20rpx;
+}
+.member-points {
+		font-size: 24rpx;
+		color: #888888;
+}
+.not-login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.login-btn {
+		margin-top: 20rpx;
+}
+	
+	/* 会员卡片 */
+.member-card {
+		background-color: #1a1a1a;
+		border-radius: 20rpx;
+		padding: 30rpx;
+		margin-bottom: 30rpx;
+		box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+.member-card-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20rpx;
+}
+.card-title {
+		font-size: 32rpx;
+		font-weight: bold;
+		color: #ffffff;
+}
+.card-subtitle {
+		font-size: 24rpx;
+		color: #888888;
+}
+.member-progress {
+		margin-top: 20rpx;
+}
+.progress-text {
+		display: flex;
+		justify-content: space-between;
+		font-size: 24rpx;
+		color: #888888;
+		margin-bottom: 10rpx;
+}
+	
+	/* 功能菜单 */
+.menu-list {
+		background-color: #1a1a1a;
+		border-radius: 20rpx;
+		overflow: hidden;
+		margin-bottom: 30rpx;
+}
+.menu-section {
+		margin-bottom: 20rpx;
+}
+.menu-section:not(:last-child) {
+		border-bottom: 2rpx solid #2a2a2a;
+}
+.menu-item {
+		display: flex;
+		align-items: center;
+		padding: 30rpx;
+		position: relative;
+}
+.menu-item:active {
+		background-color: #2a2a2a;
+}
+.menu-icon-img {
+		width: 50rpx;
+		height: 50rpx;
+		margin-right: 20rpx;
+}
+.menu-text {
+		flex: 1;
+		font-size: 28rpx;
+		color: #ffffff;
+}
+.arrow-img {
+		width: 30rpx;
+		height: 30rpx;
+}

@@ -1,0 +1,100 @@
+spring:
+  application:
+    name: milktea
+
+  # 允许Bean定义覆盖
+  main:
+    allow-bean-definition-overriding: true
+
+  # 启用ANSI彩色输出
+  output:
+    ansi:
+      enabled: always
+
+  # 文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB  # 单个文件最大大小
+      max-request-size: 10MB  # 单次请求最大大小
+
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/milk_tea_ordering?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # JPA配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: false
+
+  # Redis配置
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      password: 111111
+
+# JWT配置
+jwt:
+  secret: QkJ6uEPywBQz45SbC5GgngqcfZkSdEFpHFUvAM7kEKYSQtjt6xYJ4TrPkDVgfXbN
+  expiration: 86400000
+
+# 服务器配置
+server:
+  port: 8081
+#  address: 10.22.38.45 # Add IP
+  address: 0.0.0.0
+  servlet:
+    context-path: /api
+
+# 日志配置
+logging:
+  level:
+    org.hibernate.SQL: OFF
+    org.hibernate.type.descriptor.sql.BasicBinder: OFF
+    org.hibernate.orm.connections: OFF
+    com.zaxxer.hikari: OFF
+    com.cool.request: OFF
+    # 应用自身日志
+    com.cxy.milktea: INFO
+    # Spring相关日志
+    org.springframework: WARN
+    org.springframework.data.redis: INFO
+    org.springframework.cache: INFO
+    # Web服务器相关日志
+    org.springframework.boot.web.embedded.tomcat: INFO
+    org.springframework.web: INFO
+    org.apache.tomcat: INFO
+    org.apache.catalina: INFO
+    # 添加启动信息日志
+    org.springframework.boot.web.embedded.tomcat.TomcatWebServer: INFO
+    org.springframework.boot.StartupInfoLogger: INFO
+  pattern:
+    console: "%clr(%d{${LOG_DATEFORMAT_PATTERN:yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr([${spring.application.name:-}]){magenta} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+    file: "${logging.pattern.console}"
+  file:
+    name: logs/milktea.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 7
+
+# 文件存储配置
+file:
+  storage:
+    # 存储位置，使用项目根目录下的uploads文件夹
+    location: ./uploads
+    # 文件访问URL，与server.servlet.context-path一致
+    access-url: http://39.105.25.33:8081/api/uploads
+    # 启动时自动创建目录
+    auto-create-dir: true
+
+

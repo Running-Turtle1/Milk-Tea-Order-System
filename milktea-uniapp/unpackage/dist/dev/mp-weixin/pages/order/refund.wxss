@@ -1,0 +1,119 @@
+
+.refund-container {
+		background-color: #121212;
+		min-height: 100vh;
+		padding-bottom: 40rpx;
+}
+.header {
+		padding: 30rpx;
+		background-color: #1a1a1a;
+		text-align: center;
+}
+.title {
+		font-size: 36rpx;
+		color: #ffffff;
+		font-weight: bold;
+}
+.refund-form {
+		margin: 30rpx;
+		padding: 30rpx;
+		background-color: #1a1a1a;
+		border-radius: 16rpx;
+}
+.form-item {
+		margin-bottom: 30rpx;
+}
+.item-label {
+		display: block;
+		font-size: 28rpx;
+		color: #888888;
+		margin-bottom: 10rpx;
+}
+.item-value {
+		font-size: 30rpx;
+		color: #ffffff;
+}
+.amount-input {
+		display: flex;
+		align-items: center;
+		border-bottom: 2rpx solid #333333;
+		padding-bottom: 10rpx;
+}
+.currency {
+		font-size: 32rpx;
+		color: #ffffff;
+		margin-right: 10rpx;
+}
+.amount-value {
+		flex: 1;
+		height: 60rpx;
+		color: #ffffff;
+		font-size: 32rpx;
+}
+.picker-value {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 2rpx solid #333333;
+		padding: 15rpx 0;
+}
+.picker-value text {
+		font-size: 30rpx;
+		color: #ffffff;
+}
+.arrow {
+		width: 20rpx;
+		height: 20rpx;
+		border-right: 4rpx solid #888888;
+		border-bottom: 4rpx solid #888888;
+		transform: rotate(45deg);
+}
+.textarea-item {
+		position: relative;
+}
+.remark-textarea {
+		width: 100%;
+		height: 180rpx;
+		background-color: #232323;
+		border-radius: 12rpx;
+		padding: 20rpx;
+		box-sizing: border-box;
+		color: #ffffff;
+		font-size: 28rpx;
+		margin-top: 10rpx;
+}
+.textarea-count {
+		position: absolute;
+		right: 20rpx;
+		bottom: 20rpx;
+		font-size: 22rpx;
+		color: #888888;
+}
+.refund-tips {
+		margin: 0 30rpx 40rpx;
+		padding: 20rpx 30rpx;
+		background-color: #1a1a1a;
+		border-radius: 12rpx;
+}
+.tip-title {
+		display: block;
+		font-size: 28rpx;
+		color: #888888;
+		margin-bottom: 10rpx;
+}
+.tip-content {
+		display: block;
+		font-size: 24rpx;
+		color: #888888;
+		margin-bottom: 6rpx;
+}
+.submit-btn {
+		margin: 40rpx 30rpx;
+		height: 90rpx;
+		line-height: 90rpx;
+		background-color: #7b68ee;
+		color: #ffffff;
+		font-size: 32rpx;
+		text-align: center;
+		border-radius: 45rpx;
+}

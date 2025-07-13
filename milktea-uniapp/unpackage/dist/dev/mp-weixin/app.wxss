@@ -1,0 +1,175 @@
+
+	/*每个页面公共css */
+@font-face {
+  font-family: "iconfont";
+  src: url('data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAQ0AAsAAAAACIQAAAPmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDHAqEHINdATYCJAMQCwoABCAFhGcHShuuB1GUDkqB7IckiaDhCEKQFFAiIkAAAMYYD/9jv3vfzPx/RpM02tWTTvxJNEtCEgkSoVGa6YRGh3j4f+02MwQl9eZJnmefpC+wXNYZ//teV2JU0gg5IZ7h5fT3LlBimjOZ5mSJMjkVOW6cFdXp+RIgAMR5HIFjhw9FQAGFIMA1a+OXKkDRUo6QQlAY7JmZC3ehhKJV0xsA7vg/L9/oiwIURgLdaeaGYsZB5s/iyzHpf5Lx2AgC258JYF0EJAAOAIA71cZq0AyAA1NFCLobohMAUChC/iz+/OKvxP9PeFJ1QvsPDwKFBkAE3R3TCbDzV/BnEUXwZwlF8mcpUuKv5QRQ1l4BQBeACUB4UJS7aGRkE1GhOGS1Wi2KIpNFVSlT6Cp8XbbZjD7Wbv8b6bC1y0w2c2h42OzhsLsmQ2W/5LBzlsiwGiayHcnpnGvfj+c7iHHnNmPMscUddmyJ7O727d5ybnc5nVu3O51bra9jQ/p+3jZjeXbkGhUzw/YBnpmW1bMCr7NwuY3ysgPcqfmSORvlJSIFw51xyeF1Z66ckbLF6bjsO25fTj9ntey07Vy6a/lnUFYqLsZi9HK3GHFtjrmv3pLT5lhHLnJtc92RcYsZG2xsyb3NPeKIa/zNMI/1B8JWK1etXm1tWV+Pj9uObkl9mxbWo6hl3zHY2iYvFsUTYNyP8IwTAj0YiHCgH2vfvsU8Ou/R2LvYGUGgn4GezD3Tr6NMjrGOSUbGTWAi2MWqKc44QbCXLuzHuCZH1N69ZaZXpqQrp/K+n8r8I5WVkZUxElTWoSjLw2FlhRLmCYWVS4pLmZFxJSOtmX0z1ux02y61p08vmTqn0WW5VF1A84+X55fkH/9cLNKfFxTk6+dnZZnzdc28c8m8IFdVna/ZT85CdObxE8cPzHE9Ky8+dHDF6vLN+gY95Mvnrj5QcbOqCAAQpwLpuQD+Cml8/r+k3hAu/G+bRwDgDdnmGwB4xmxBAHD1j34NAM/4qkqAl++oo7eNNIWmYEoI5E8RQb7D0vRRvD+jFNKpChQmGoGiMgFJYxoyYw5ACR0DoTEXxDm6hjsUFBAJgN2YAITeFqDoXYGk9x0yY/5ACaMfCH0IELcjAhdMmAOLkBrEHkYnhDK0ibLQTSrm5G5oZLdgYY4lPyUDrhPR9hRX3aDFnNKI/cgY57DmuoYDSpRhA2vmOO4YnDBnqg2b9bjQUJmirg1Ng7gIUQbCHhg6QpAMmhHKQm5ixdzcf0PDzi0w4biJQl9KDDRxEK1e2sJrPSTMSZRs9i4Z43AYy7k0OEFCI3RtgGWm4xpDCmwWxm1obZtXKDTIqKgyKo9vWb/hElDEfaTQEYlBIokipA05lK5kPMkJ7WgDqQitY9RDLo8u3cQAAAA=') format('woff2');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-shop:before {
+  content: "\e67e";
+}
+.icon-home:before {
+  content: "\e7c6";
+}
+.icon-cart:before {
+  content: "\e7c4";
+}
+.icon-user:before {
+  content: "\e7ae";
+}
+.icon-order:before {
+  content: "\e7b3";
+}
+.icon-menu:before {
+  content: "\e790";
+}
+.icon-scan:before {
+  content: "\e689";
+}
+.icon-coupon:before {
+  content: "\e65f";
+}
+.icon-points:before {
+  content: "\e618";
+}
+.icon-location:before {
+  content: "\e758";
+}
+.icon-phone:before {
+  content: "\e7e3";
+}
+	/* 添加缺失的图标 */
+.icon-password:before {
+  content: "\e75c";
+}
+.icon-notification:before {
+  content: "\e7c5";
+}
+.icon-clear:before {
+  content: "\e747";
+}
+.icon-about:before {
+  content: "\e74f";
+}
+.icon-contact:before {
+  content: "\e645";
+}
+.icon-coffee:before {
+  content: "\e67f";
+}
+.icon-new:before {
+  content: "\e781";
+}
+.icon-gift:before {
+  content: "\e846";
+}
+	/* 添加搜索图标 */
+.icon-search:before {
+  content: "\e8ef";
+}
+	/* 添加关闭图标 */
+.icon-close:before {
+  content: "\e7fc";
+}
+	/* 添加更多图标 */
+.icon-add:before {
+  content: "\e767";
+}
+.icon-minus:before {
+  content: "\e768";
+}
+.icon-edit:before {
+  content: "\e7a1";
+}
+.icon-delete:before {
+  content: "\e7c3";
+}
+	/* 全局样式 */
+page {
+		background-color: #121212;
+		font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+		color: #ffffff;
+		overflow: hidden;
+}
+	/* 隐藏所有滚动条 */
+::-webkit-scrollbar {
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
+		background: transparent !important;
+}
+	/* 让所有可滚动元素都隐藏滚动条但保持可滚动 */
+page,
+	view,
+	scroll-view,
+	.scroll-view,
+	.uni-scroll-view,
+	.scrollable,
+	.uni-scroll-view-content {
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: none; /* Firefox */
+		-ms-overflow-style: none; /* IE 10+ */
+}
+	/* 隐藏iOS上的滚动条 */
+::-webkit-scrollbar {
+		width: 0 !important;
+		height: 0 !important;
+		background-color: transparent !important;
+		display: none !important;
+}
+	/* 确保内容可以滚动但不显示滚动条 */
+.uni-page-body,
+	.uni-page-head,
+	.uni-page-wrapper {
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+}
+	/* 为浮动导航栏添加深色背景 */
+.uni-navbar {
+		background-color: #1a1a1a !important;
+}
+.uni-navbar__header {
+		background-color: #1a1a1a !important;
+}
+.uni-navbar__header-btns {
+		color: #ffffff !important;
+}
+.uni-navbar__header-title {
+		color: #ffffff !important;
+}
+	/* 导航按钮图标设置为白色 */
+.uni-navbar__header-btns-left,
+	.uni-navbar__header-btns-right {
+		color: #ffffff !important;
+}
+.uni-navbar__header-container {
+		color: #ffffff !important;
+}
+.uni-nav-bar-text,
+	.uni-nav-bar .uni-icon {
+		color: #ffffff !important;
+}
+	/* 导航栏上的所有图标和文字设置为白色 */
+.uni-navbar .uni-icon,
+	.uni-navbar text,
+	.uni-navbar view {
+		color: #ffffff !important;
+}
+	/* 返回箭头设置为白色 */
+.uni-navbar .uni-icon-back,
+	.uni-navbar .uni-icon-left {
+		color: #ffffff !important;
+}
+	/* 确保tabbar底部没有白条 */
+.uni-tabbar {
+		background-color: #1a1a1a !important;
+		border-top-color: #2a2a2a !important;
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

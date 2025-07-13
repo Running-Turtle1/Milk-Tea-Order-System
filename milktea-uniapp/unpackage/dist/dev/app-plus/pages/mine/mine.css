@@ -1,0 +1,130 @@
+
+.mine-container {
+		padding: 0.625rem;
+		background-color: #121212;
+}
+	
+	/* 用户信息卡片 */
+.user-card {
+		background-color: #1a1a1a;
+		border-radius: 0.625rem;
+		padding: 0.9375rem;
+		margin-bottom: 0.9375rem;
+		box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2);
+}
+.user-info {
+		display: flex;
+		align-items: center;
+		position: relative;
+}
+.avatar, .default-avatar {
+		width: 3.75rem;
+		height: 3.75rem;
+		border-radius: 1.875rem;
+		border: 0.0625rem solid #7b68ee;
+}
+.user-detail {
+		margin-left: 0.9375rem;
+		flex: 1;
+}
+.username {
+		font-size: 1.125rem;
+		font-weight: bold;
+		margin-bottom: 0.3125rem;
+		color: #ffffff;
+}
+.member-info {
+		display: flex;
+		align-items: center;
+}
+.member-level {
+		font-size: 0.75rem;
+		color: #7b68ee;
+		background-color: rgba(123, 104, 238, 0.1);
+		padding: 0.125rem 0.375rem;
+		border-radius: 0.625rem;
+		margin-right: 0.625rem;
+}
+.member-points {
+		font-size: 0.75rem;
+		color: #888888;
+}
+.not-login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.login-btn {
+		margin-top: 0.625rem;
+}
+	
+	/* 会员卡片 */
+.member-card {
+		background-color: #1a1a1a;
+		border-radius: 0.625rem;
+		padding: 0.9375rem;
+		margin-bottom: 0.9375rem;
+		box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2);
+}
+.member-card-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.625rem;
+}
+.card-title {
+		font-size: 1rem;
+		font-weight: bold;
+		color: #ffffff;
+}
+.card-subtitle {
+		font-size: 0.75rem;
+		color: #888888;
+}
+.member-progress {
+		margin-top: 0.625rem;
+}
+.progress-text {
+		display: flex;
+		justify-content: space-between;
+		font-size: 0.75rem;
+		color: #888888;
+		margin-bottom: 0.3125rem;
+}
+	
+	/* 功能菜单 */
+.menu-list {
+		background-color: #1a1a1a;
+		border-radius: 0.625rem;
+		overflow: hidden;
+		margin-bottom: 0.9375rem;
+}
+.menu-section {
+		margin-bottom: 0.625rem;
+}
+.menu-section:not(:last-child) {
+		border-bottom: 0.0625rem solid #2a2a2a;
+}
+.menu-item {
+		display: flex;
+		align-items: center;
+		padding: 0.9375rem;
+		position: relative;
+}
+.menu-item:active {
+		background-color: #2a2a2a;
+}
+.menu-icon-img {
+		width: 1.5625rem;
+		height: 1.5625rem;
+		margin-right: 0.625rem;
+}
+.menu-text {
+		flex: 1;
+		font-size: 0.875rem;
+		color: #ffffff;
+}
+.arrow-img {
+		width: 0.9375rem;
+		height: 0.9375rem;
+}

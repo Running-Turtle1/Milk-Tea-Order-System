@@ -1,0 +1,57 @@
+
+.change-phone-container {
+		padding: 0.625rem;
+		background-color: #121212;
+		min-height: 100vh;
+}
+.phone-header {
+		padding: 0.9375rem 0;
+		margin-bottom: 0.625rem;
+}
+.header-title {
+		font-size: 1.25rem;
+		font-weight: bold;
+		color: #ffffff;
+}
+.phone-form {
+		background-color: #1a1a1a;
+		border-radius: 0.625rem;
+		padding: 0.9375rem;
+		margin-top: 0.9375rem;
+}
+.form-item {
+		margin-bottom: 0.9375rem;
+}
+.form-label {
+		display: block;
+		font-size: 0.875rem;
+		color: #ffffff;
+		margin-bottom: 0.46875rem;
+}
+.current-phone {
+		height: 2.5rem;
+		line-height: 2.5rem;
+		background-color: #2a2a2a;
+		border-radius: 0.3125rem;
+		padding: 0 0.625rem;
+		color: #888888;
+		font-size: 0.875rem;
+}
+.form-input {
+		background-color: #2a2a2a;
+		height: 2.5rem;
+		border-radius: 0.3125rem;
+		padding: 0 0.625rem;
+		color: #ffffff;
+		width: 100%;
+		box-sizing: border-box;
+}
+.submit-btn {
+		background-color: #7b68ee;
+		color: #ffffff;
+		height: 2.8125rem;
+		line-height: 2.8125rem;
+		font-size: 1rem;
+		margin-top: 1.5625rem;
+		border-radius: 1.40625rem;
+}

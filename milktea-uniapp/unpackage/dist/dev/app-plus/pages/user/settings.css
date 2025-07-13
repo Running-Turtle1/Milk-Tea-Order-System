@@ -1,0 +1,64 @@
+
+.settings-container {
+		padding: 0.625rem;
+		background-color: #121212;
+		min-height: 100vh;
+}
+.settings-header {
+		padding: 0.9375rem 0;
+		margin-bottom: 0.625rem;
+}
+.header-title {
+		font-size: 1.25rem;
+		font-weight: bold;
+		color: #ffffff;
+}
+.settings-section {
+		margin-bottom: 0.9375rem;
+}
+.section-title {
+		font-size: 0.875rem;
+		color: #888888;
+		margin-bottom: 0.46875rem;
+		padding: 0 0.3125rem;
+}
+.settings-list {
+		background-color: #1a1a1a;
+		border-radius: 0.625rem;
+		overflow: hidden;
+}
+.settings-item {
+		display: flex;
+		align-items: center;
+		padding: 0.9375rem;
+		position: relative;
+		border-bottom: 0.0625rem solid #2a2a2a;
+}
+.settings-item:last-child {
+		border-bottom: none;
+}
+.settings-item:active {
+		background-color: #2a2a2a;
+}
+.settings-icon-img {
+		width: 1.5625rem;
+		height: 1.5625rem;
+		margin-right: 0.625rem;
+}
+.settings-text {
+		flex: 1;
+		font-size: 0.875rem;
+		color: #ffffff;
+}
+.arrow {
+		font-size: 0.875rem;
+		color: #888888;
+}
+.logout-btn {
+		margin-top: 1.5625rem;
+}
+.logout-btn uni-button {
+		background-color: #333;
+		color: #fff;
+		border: none;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#1a1a1a",
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}

@@ -1,0 +1,57 @@
+
+.change-phone-container {
+		padding: 20rpx;
+		background-color: #121212;
+		min-height: 100vh;
+}
+.phone-header {
+		padding: 30rpx 0;
+		margin-bottom: 20rpx;
+}
+.header-title {
+		font-size: 40rpx;
+		font-weight: bold;
+		color: #ffffff;
+}
+.phone-form {
+		background-color: #1a1a1a;
+		border-radius: 20rpx;
+		padding: 30rpx;
+		margin-top: 30rpx;
+}
+.form-item {
+		margin-bottom: 30rpx;
+}
+.form-label {
+		display: block;
+		font-size: 28rpx;
+		color: #ffffff;
+		margin-bottom: 15rpx;
+}
+.current-phone {
+		height: 80rpx;
+		line-height: 80rpx;
+		background-color: #2a2a2a;
+		border-radius: 10rpx;
+		padding: 0 20rpx;
+		color: #888888;
+		font-size: 28rpx;
+}
+.form-input {
+		background-color: #2a2a2a;
+		height: 80rpx;
+		border-radius: 10rpx;
+		padding: 0 20rpx;
+		color: #ffffff;
+		width: 100%;
+		box-sizing: border-box;
+}
+.submit-btn {
+		background-color: #7b68ee;
+		color: #ffffff;
+		height: 90rpx;
+		line-height: 90rpx;
+		font-size: 32rpx;
+		margin-top: 50rpx;
+		border-radius: 45rpx;
+}

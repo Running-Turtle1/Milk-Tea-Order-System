@@ -1,0 +1,28 @@
+{
+  "name": "milktea-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.9.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.9.9",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.2",
+    "qs": "^6.14.0",
+    "vee-validate": "^4.5.8",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "vite": "^6.3.1"
+  }
+}

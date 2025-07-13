@@ -1,0 +1,79 @@
+
+.avatar-view-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #121212;
+		gap: 100rpx;
+		padding-bottom: 50rpx;
+}
+	
+	/* 自定义导航栏 */
+.custom-navbar {
+		width: 100%;
+		height: 90rpx;
+		padding-top: var(--status-bar-height);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #1a1a1a;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+}
+.navbar-left {
+		padding: 0 30rpx;
+		height: 100%;
+		display: flex;
+		align-items: center;
+}
+.navbar-title {
+		font-size: 32rpx;
+		color: #ffffff;
+		font-weight: bold;
+}
+.navbar-right {
+		width: 100rpx;
+}
+.back-icon {
+		width: 40rpx;
+		height: 40rpx;
+}
+	
+	/* 头像展示区域 */
+.avatar-display {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+}
+.avatar-image {
+		width: 600rpx;
+		height: 600rpx;
+		border-radius: 20rpx;
+		background-color: #1a1a1a;
+		box-shadow: 0 8rpx 20rpx rgba(0, 0, 0, 0.3);
+}
+	
+	/* 操作按钮区域 */
+.action-buttons {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 0 50rpx;
+		box-sizing: border-box;
+}
+.action-btn {
+		width: 80%;
+		margin: 0 20rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		font-size: 28rpx;
+		border-radius: 40rpx;
+}
+.upload-btn {
+		background-color: #7b68ee;
+		color: #ffffff;
+		border: none;
+}
